@@ -1,0 +1,22 @@
+body {
+  background-color: green;
+}
+
+.keyboard {
+  background-color: brown;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.key {
+  background-color: white;
+  width: 10%;
+  height: 284px;
+  margin: 8px;
+}
+
+.key:active {
+  background-color: gray;
+}
